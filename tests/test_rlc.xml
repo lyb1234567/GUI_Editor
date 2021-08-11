@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<DirectedGraph>
+    <Graph>
+        <name>graph1</name>
+    </Graph>
+    <Component>
+        <Node uid="7778da">
+            <name>N2</name>
+            <colour>#fd5455</colour>
+            <position_x>853.0</position_x>
+            <position_y>571.0</position_y>
+        </Node>
+        <Node uid="32a24b">
+            <name>N3</name>
+            <colour>#fd5455</colour>
+            <position_x>315.0</position_x>
+            <position_y>579.0</position_y>
+        </Node>
+        <SourceNode uid="b20350">
+            <name>S1</name>
+            <colour>#0f8080</colour>
+            <position_x>833.0</position_x>
+            <position_y>198.0</position_y>
+            <user_defined_attribute>10</user_defined_attribute>
+        </SourceNode>
+        <GroundNode uid="365bb9">
+            <name>Ground 0</name>
+            <colour>#d4aa01</colour>
+            <position_x>330.0</position_x>
+            <position_y>211.0</position_y>
+        </GroundNode>
+        <Arc uid="2f7002">
+            <name>R1</name>
+            <colour>#0000</colour>
+            <node1_uid>b20350</node1_uid>
+            <node2_uid>7778da</node2_uid>
+            <user_defined_attribute>20</user_defined_attribute>
+            <user_defined_arc_type>Resistor</user_defined_arc_type>
+        </Arc>
+        <Arc uid="0dcb2f">
+            <name>R2</name>
+            <colour>#0000</colour>
+            <node1_uid>365bb9</node1_uid>
+            <node2_uid>7778da</node2_uid>
+            <user_defined_attribute>20</user_defined_attribute>
+            <user_defined_arc_type>Resistor</user_defined_arc_type>
+        </Arc>
+        <Arc uid="33ae52">
+            <name>R3</name>
+            <colour>#0000</colour>
+            <node1_uid>365bb9</node1_uid>
+            <node2_uid>32a24b</node2_uid>
+            <user_defined_attribute>4000</user_defined_attribute>
+            <user_defined_arc_type>Resistor</user_defined_arc_type>
+        </Arc>
+        <Arc uid="6bf56b">
+            <name>C1</name>
+            <colour>#0000</colour>
+            <node1_uid>365bb9</node1_uid>
+            <node2_uid>32a24b</node2_uid>
+            <user_defined_attribute>0.0000005</user_defined_attribute>
+            <user_defined_arc_type>Capacitor</user_defined_arc_type>
+        </Arc>
+        <Arc uid="2201bd">
+            <name>I1</name>
+            <colour>#0000</colour>
+            <node1_uid>7778da</node1_uid>
+            <node2_uid>32a24b</node2_uid>
+            <user_defined_attribute>0.2</user_defined_attribute>
+            <user_defined_arc_type>Inductor</user_defined_arc_type>
+        </Arc>
+    </Component>
+</DirectedGraph>

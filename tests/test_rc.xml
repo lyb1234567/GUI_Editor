@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<DirectedGraph>
+    <Graph>
+        <name>My Graph</name>
+    </Graph>
+    <Component>
+        <Node uid="1f9cb9">
+            <name>N1</name>
+            <colour>#fd5455</colour>
+            <position_x>300</position_x>
+            <position_y>100</position_y>
+        </Node>
+        <Node uid="9cf405">
+            <name>N2</name>
+            <colour>#fd5455</colour>
+            <position_x>500</position_x>
+            <position_y>100</position_y>
+        </Node>
+        <Node uid="a129a9">
+            <name>N3</name>
+            <colour>#fd5455</colour>
+            <position_x>1026.0</position_x>
+            <position_y>67.0</position_y>
+        </Node>
+        <Node uid="59d632">
+            <name>N4</name>
+            <colour>#fd5455</colour>
+            <position_x>1011.0</position_x>
+            <position_y>387.0</position_y>
+        </Node>
+        <Node uid="8ad505">
+            <name>N5</name>
+            <colour>#fd5455</colour>
+            <position_x>852.0</position_x>
+            <position_y>585.0</position_y>
+        </Node>
+        <Node uid="1d2386">
+            <name>N6</name>
+            <colour>#fd5455</colour>
+            <position_x>175.0</position_x>
+            <position_y>342.0</position_y>
+        </Node>
+        <Node uid="567071">
+            <name>N7</name>
+            <colour>#fd5455</colour>
+            <position_x>200.0</position_x>
+            <position_y>493.0</position_y>
+        </Node>
+        <SourceNode uid="14123f">
+            <name>S1</name>
+            <colour>#0f8080</colour>
+            <position_x>100</position_x>
+            <position_y>100</position_y>
+            <user_defined_attribute>5</user_defined_attribute>
+        </SourceNode>
+        <GroundNode uid="365bb9">
+            <name>G1</name>
+            <colour>#d4aa01</colour>
+            <position_x>179.0</position_x>
+            <position_y>632.0</position_y>
+        </GroundNode>
+        <Arc uid="8665f0">
+            <name>A1</name>
+            <colour>#FFFFFF</colour>
+            <node1_uid>14123f</node1_uid>
+            <node2_uid>1f9cb9</node2_uid>
+            <user_defined_attribute>None</user_defined_attribute>
+            <user_defined_arc_type>None</user_defined_arc_type>
+        </Arc>
+        <Arc uid="174404">
+            <name>C1</name>
+            <colour>#FFFFFF</colour>
+            <node1_uid>59d632</node1_uid>
+            <node2_uid>1d2386</node2_uid>
+            <user_defined_attribute>10</user_defined_attribute>
+            <user_defined_arc_type>Capacitor</user_defined_arc_type>
+        </Arc>
+        <Arc uid="1c7ad3">
+            <name>C2</name>
+            <colour>#FFFFFF</colour>
+            <node1_uid>1d2386</node1_uid>
+            <node2_uid>567071</node2_uid>
+            <user_defined_attribute>5</user_defined_attribute>
+            <user_defined_arc_type>Capacitor</user_defined_arc_type>
+        </Arc>
+        <Arc uid="2201bd">
+            <name>R1</name>
+            <colour>#FFFFFF</colour>
+            <node1_uid>1f9cb9</node1_uid>
+            <node2_uid>9cf405</node2_uid>
+            <user_defined_attribute>5</user_defined_attribute>
+            <user_defined_arc_type>Resistor</user_defined_arc_type>
+        </Arc>
+        <Arc uid="bd6295">
+            <name>R2</name>
+            <colour>#FFFFFF</colour>
+            <node1_uid>9cf405</node1_uid>
+            <node2_uid>a129a9</node2_uid>
+            <user_defined_attribute>5</user_defined_attribute>
+            <user_defined_arc_type>Resistor</user_defined_arc_type>
+        </Arc>
+        <Arc uid="a88df3">
+            <name>R3</name>
+            <colour>#FFFFFF</colour>
+            <node1_uid>9cf405</node1_uid>
+            <node2_uid>a129a9</node2_uid>
+            <user_defined_attribute>5</user_defined_attribute>
+            <user_defined_arc_type>Resistor</user_defined_arc_type>
+        </Arc>
+        <Arc uid="b081b6">
+            <name>R4</name>
+            <colour>#FFFFFF</colour>
+            <node1_uid>a129a9</node1_uid>
+            <node2_uid>59d632</node2_uid>
+            <user_defined_attribute>5</user_defined_attribute>
+            <user_defined_arc_type>Resistor</user_defined_arc_type>
+        </Arc>
+        <Arc uid="2f7002">
+            <name>R5</name>
+            <colour>#FFFFFF</colour>
+            <node1_uid>a129a9</node1_uid>
+            <node2_uid>59d632</node2_uid>
+            <user_defined_attribute>5</user_defined_attribute>
+            <user_defined_arc_type>Resistor</user_defined_arc_type>
+        </Arc>
+        <Arc uid="0dcb2f">
+            <name>R6</name>
+            <colour>#FFFFFF</colour>
+            <node1_uid>a129a9</node1_uid>
+            <node2_uid>59d632</node2_uid>
+            <user_defined_attribute>5</user_defined_attribute>
+            <user_defined_arc_type>Resistor</user_defined_arc_type>
+        </Arc>
+        <Arc uid="33ae52">
+            <name>R7</name>
+            <colour>#FFFFFF</colour>
+            <node1_uid>59d632</node1_uid>
+            <node2_uid>8ad505</node2_uid>
+            <user_defined_attribute>5</user_defined_attribute>
+            <user_defined_arc_type>Resistor</user_defined_arc_type>
+        </Arc>
+        <Arc uid="6bf56b">
+            <name>R8</name>
+            <colour>#FFFFFF</colour>
+            <node1_uid>8ad505</node1_uid>
+            <node2_uid>567071</node2_uid>
+            <user_defined_attribute>5</user_defined_attribute>
+            <user_defined_arc_type>Resistor</user_defined_arc_type>
+        </Arc>
+        <Arc uid="ea40e5">
+            <name>R9</name>
+            <colour>#FFFFFF</colour>
+            <node1_uid>567071</node1_uid>
+            <node2_uid>365bb9</node2_uid>
+            <user_defined_attribute>5</user_defined_attribute>
+            <user_defined_arc_type>Resistor</user_defined_arc_type>
+        </Arc>
+    </Component>
+</DirectedGraph>

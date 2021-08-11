@@ -1,0 +1,9 @@
+Arc Node1 Node2 Value # graph1
+VS 1 0 10 ; b20350 365bb9
+R1 1 2 20 ; b20350 7778da
+R2 0 2 20 ; 365bb9 7778da
+R3 0 3 4000 ; 365bb9 32a24b
+C1 0 3 0.0000005 ; 365bb9 32a24b
+L1 2 3 0.2 ; 7778da 32a24b
+.TRAN 0.1M 30M UIC
+.end
